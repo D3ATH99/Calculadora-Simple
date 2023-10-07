@@ -46,4 +46,29 @@
 
 a {
     color: #fff;
+} 
+
+@media (max-width: 400px) {
+    #appBg {
+        width: 290px;
+        height: 500px;
+        margin: 20px auto;
+    }
+
+    #appBg form {
+        margin: 0;
+    }
+}
+
+@media (min-width: 760px) {
+    #appBg {
+        height: 380px;
+    }
+}
+
+@media (min-width: 970px) {
+    #appBg {
+        width: 400px;
+        height: 420px;
+    }
 }
