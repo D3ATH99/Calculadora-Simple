@@ -12,7 +12,7 @@
 <body>
     <div id="appBg">
         <form name="calculator">
-            <input type="textfield" id="respuesta" name="ans" value="" autocomplete="off" readonly>
+            <input type="textfield" placeholder="0" id="respuesta" name="ans" value="" autocomplete="off" readonly>
 
             <input type="button" value="7" id="num" onclick="document.calculator.ans.value+='7'">
             <input type="button" value="8" id="num" onclick="document.calculator.ans.value+='8'">
@@ -31,7 +31,7 @@
 
             <input type="button" value="0" id="num" onclick="document.calculator.ans.value+='0'">
             <input type="reset" value="C" id="num">
-            <input type="button" id="num" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+            <input type="button" id="num" value="=" onclick="document.calculator.ans.value= eval(document.calculator.ans.value)">
             <input type="button" id="num" value="÷"onclick="document.calculator.ans.value+='/'">
 
             <a href="https://github.com/D3ATH99/Calculadora-Simple" target="_blank">¡Aquí tienes el código!</a>
