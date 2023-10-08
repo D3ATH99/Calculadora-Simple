@@ -1,10 +1,20 @@
+header{
+    text-align: center;
+    margin: 0;
+    
+}
+
+header h1 {
+    text-decoration: underline overline solid 2.5px #1095c1;
+}
+
 #appBg {
     height: 370px;
     width: 350px;
     background-color: #252525;
     border: 1px solid;
     border-radius: 5px;
-    margin: 100px auto;
+    margin: 0 auto;
     text-align: center;
     align-items: center;
 }
@@ -12,6 +22,7 @@
 #appBg form {
     height: 100%;
     width: 100%;
+    margin: 0;
 }
 
 #respuesta {
@@ -43,16 +54,30 @@
     text-align: center;
     align-content: center;
 }
+#num__gris {
+    margin: 0;
+    width: 22%;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 5%;
+    text-align: center;
+    align-content: center;
+    background-color: #596b78;
+}
 
 a {
     color: #fff;
 } 
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     #appBg {
         width: 290px;
         height: 500px;
-        margin: 20px auto;
     }
 
     #appBg form {

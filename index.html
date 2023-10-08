@@ -10,6 +10,11 @@
     <title>Calculadora</title>
 </head>
 <body>
+
+    <header>
+        <h1><span>Easy Calc</span></h1>
+    </header>
+
     <div id="appBg">
         <form name="calculator">
             <input type="textfield" placeholder="0" id="respuesta" name="ans" value="" autocomplete="off" readonly>
@@ -30,7 +35,7 @@
             <input type="button" value="X" id="num" onclick="document.calculator.ans.value+='*'">
 
             <input type="button" value="0" id="num" onclick="document.calculator.ans.value+='0'">
-            <input type="reset" value="C" id="num">
+            <input type="button" value="⌫" id="num__gris" onclick="deleteLastCharacter()">
             <input type="button" id="num" value="=" onclick="document.calculator.ans.value= eval(document.calculator.ans.value)">
             <input type="button" id="num" value="÷"onclick="document.calculator.ans.value+='/'">
 
@@ -39,5 +44,7 @@
             </div>
         </form>
     </div>
+
+    <script src="del.js"></script>
 </body>
 </html>
