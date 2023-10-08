@@ -84,6 +84,8 @@ body.active {
     text-align: right;
     font-size: 50px;
     border: 0;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
     outline: none;
 }
 
