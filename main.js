@@ -6,3 +6,12 @@ function deleteLastCharacter() {
         inputField.value = currentValue.slice(0, -1);
     }
 }
+
+// Función darkmode
+let toggle = document.getElementById("darkmode");
+let body = document.querySelector("body");
+
+toggle.onclick = function(){
+    toggle.classList.toggle('active');
+    body.classList.toggle('active');
+}
