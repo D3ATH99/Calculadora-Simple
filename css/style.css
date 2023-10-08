@@ -5,6 +5,8 @@ header{
 }
 
 header h1 {
+    margin: 0;
+    align-items: center;
     text-decoration: underline overline solid 2.5px #1095c1;
 }
 
@@ -76,12 +78,8 @@ a {
 
 @media (max-width: 500px) {
     #appBg {
-        width: 290px;
-        height: 500px;
-    }
-
-    #appBg form {
-        margin: 0;
+        width: 330px;
+        height: 350px;
     }
 }
 
